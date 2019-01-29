@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<link  rel="stylesheet" type="text/css" href="calculadora.css">
+</head>
+ 
+<body>
+  <center><input type="text" id="result">
+    <table style="width:100%">
+      <tr>
+        <td> <button onclick="myFunction(7)"><img id="7"  src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_7_blue-512.png" width="100"> </button>   </td>
+        <td> <button onclick="myFunction(8)"> <img id="8" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_8_green-512.png" width="100"> </button>   </td>
+        <td> <button onclick="myFunction(9)"> <img id="9" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_9_blue-512.png" width="100"> </button>  </td>
+        <td> <button onclick="operacion('s')"> <img id="suma" src="https://cdn4.iconfinder.com/data/icons/keynote-and-powerpoint-icons/256/Plus-512.png" width="100"> </button>  </td>
+      </tr>  
+      <tr>
+        <td> <button onclick="myFunction(4)"> <img id="4" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_4_blue-512.png" width="100"> </button>  </td>
+        <td> <button onclick="myFunction(5)"> <img id="5" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_5_blue-512.png" width="100"> </button>   </td>
+        <td> <button onclick="myFunction(6)"> <img id="6" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_6_blue-512.png" width="100"> </button>  </td>
+        <td> <button onclick="operacion('r')"> <img id="menos" src="https://cdn4.iconfinder.com/data/icons/gradient-ui-1/512/minus-512.png" width="100">  </button> </td>
+      </tr>  
+      <tr>
+        <td> <button onclick="myFunction(1)"> <img id="1" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_1_blue-512.png" width="100"> </button>  </td>
+        <td><button onclick="myFunction(2)"> <img id="2" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_2_blue-512.png" width="100">  </button>  </td>
+        <td> <button onclick="myFunction(3)"> <img id="3" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_3_blue-512.png" width="100"> </button>  </td>
+        <td> <button onclick="operacion('m')"> <img id="multiplicacion" src="https://cdn2.iconfinder.com/data/icons/ios-tab-bar/25/Cross_Cricle-512.png" width="100"> </button>  </td>
+      </tr>  
+      <tr>
+        <td> <button onclick="myFunction(0)"> <img id="0" src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_0_blue-512.png" width="100"> </button>  </td>
+        <td> <button onclick="resultado()"> <img id="igual" src="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_5-512.png" width="100">   </button> </td>
+        <td> <button onclick="borrar()"> <img id="borrar" src="https://cdn4.iconfinder.com/data/icons/miu/24/circle-back-arrow-glyph-512.png" width="100"> </button>  </td>
+        <td> <button onclick="operacion('d')"> <img id="division" src="https://cdn0.iconfinder.com/data/icons/math-business-icon-set/93/1_4-512.png" width="100"> </button>  </td>
+      </tr>  
+      
+    </table>
+  </center>
+<script src="calculadora.js"></script>  
+</body>
+</html>
